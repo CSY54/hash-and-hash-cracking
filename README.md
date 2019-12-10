@@ -4,7 +4,7 @@ A hash and hash cracking task from Fedora Project @ GCI 2019
 
 ## Screenshot
 
-![[asciicast](https://asciinema.org/a/286699.png)](https://asciinema.org/a/286699)
+[![asciicast](https://asciinema.org/a/286699.png)](https://asciinema.org/a/286699)
 
 ## Usage
 
