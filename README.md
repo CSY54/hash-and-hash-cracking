@@ -2,6 +2,10 @@
 
 A hash and hash cracking task from Fedora Project @ GCI 2019
 
+## Screenshot
+
+![[asciicast](https://asciinema.org/a/EOIOf3qPZeOFieHZSOtD8mivt.png)](https://asciinema.org/a/EOIOf3qPZeOFieHZSOtD8mivt)
+
 ## Usage
 
 ```shell
