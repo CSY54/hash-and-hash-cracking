@@ -5,7 +5,7 @@ test="rockyou"
 hash() {
   py=`python3 hash.py -m h -T $1 -t $2 | awk '{ print $4 }'`
   op=`printf $2 | openssl $1`
-  echo "- $1 hash"
+  echo "Hashing $2 in $1"
   echo "hash.py: $py"
   echo "openssl: $op"
   echo ""
@@ -14,7 +14,7 @@ hash() {
 crack() {
   hsh=`printf $2 | openssl $1`
   res=`python3 hash.py -m c -T $1 -t $hsh -f ~/CTF/Tools/rockyou.txt | awk -F'"' '{ print $2 }'`
-  echo "- $1 crack"
+  echo "Cracking $hsh in $1"
   echo $res
   echo ""
 }
